@@ -10,7 +10,7 @@ implement the same interface, selected by platform configuration.
 | --- | --- |
 | `src/index.hnl` | the contract — `Noise` grade + op signatures |
 | `pkg.hnl` | manifest — dep `type`, `modules: ["noise"]` |
-| `scripts/hnl-gate.sh`, `ci.sh` | the gate / bupha entry |
+| `scripts/hnl-gate.sh`, `workflows/gate.yaml` | the gate / bupha entry |
 
 ## Contract
 
